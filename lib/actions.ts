@@ -20,7 +20,7 @@ export async function generate(form: FormData) {
     }),
     replicate.predictions.create({
       version:
-        "75d51a73fce3c00de31ed9ab4358c73e8fc0f627dc8ce975818e653317cb919b",
+        "377cf09e230c0d599c2022aa315a56bbe588e625f8f517fc07086e6f286e62d5",
       input: {
         prompt,
         qr_code_content: "https://spirals.vercel.app",
